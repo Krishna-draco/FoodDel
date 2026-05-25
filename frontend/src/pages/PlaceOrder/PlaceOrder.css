@@ -1,0 +1,52 @@
+.place-order{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-between;
+   margin: 12vh 0px;
+}
+
+.place-order-left{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.multi-line-inputs{
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+}
+.place-order-left input{
+   padding: 4px;
+   border: 1px solid gray;
+   border-radius: 4px;
+}
+
+.place-order-right{
+   width: 50%;
+}
+
+.right-place-order{
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+   gap: 10px;
+   justify-self: flex-end;
+   margin-top: 10vh;
+}
+.right-place-order-items{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.payment-btn{
+   width: 60%;
+   margin: auto;
+   padding: 5px;
+   border-radius: 4px;
+   background-color: aqua;
+   cursor: pointer;
+   color: rgb(248, 77, 106);
+   border: 0.2px solid gray;
+}

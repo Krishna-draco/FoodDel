@@ -1,0 +1,65 @@
+.loginpopup-container {
+    position: fixed; 
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.65); 
+    
+    z-index: 1000; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.loginpopup-container form {
+    background-color: white; 
+    color: #333;
+    padding: 25px 30px;
+    border-radius: 8px;
+    
+    width: min(90vw, 400px); 
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* z-index: 1001;  */
+}
+
+.popup-title{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.popup-title img{
+   width: 15px;
+   height: 15px;
+}
+
+.inputs{
+   display: flex;
+   flex-direction: column;
+   gap: 7px;
+}
+
+.inputs input,.create-btn{
+   width: 100%;
+   padding: 8px;
+   border-radius: 4px;
+   border: 1px solid gray;
+}
+
+.create-btn{
+   color: red;
+   cursor: pointer;
+   font-size: 17px;
+   background-color: rgb(218, 184, 250);
+}
+.login-signup-toggle{
+   color: tomato;
+   cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.explore-container{
+   margin-top:2vh;
+   display: flex;
+   flex-direction: column;
+   gap: 1vh;
+   padding: 1vh;
+   border-radius: 4px;
+   background-color: rgb(247, 243, 243);
+   margin-bottom: 3vh;
+}
+.horizontal-line{
+   color: gray;
+   height: 0.1vh;
+}
+.heading{
+   margin-left: 1vw;
+   font-size: 2.25rem;
+}
+.heading p{
+   font-size: 1rem;
+   width: 50vw;
+}
+.menu-container{
+   display: flex;
+   flex-direction: row;
+   gap: 2vw;
+   overflow-x: scroll;
+   scrollbar-width: none;
+   text-align: center;
+}
+.menu_List p{
+   color: tomato;
+
+}
+.menu_List img{
+   width: 8vw;
+   cursor: pointer;
+}
+.menu_List p{
+   cursor: pointer;
+}
+.active{
+   background-color: rgb(207, 207, 207);
+   border-radius: 3px;
+}

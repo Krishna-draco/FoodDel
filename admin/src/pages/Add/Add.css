@@ -1,0 +1,32 @@
+.add-container{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   width: 24vw;
+
+}
+
+.img{
+   max-width: 10vw;
+   height: 10vh;
+}
+
+.img-upload{
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.inp-item{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.selects{
+   width: 50%;
+}
+
+.inp{
+   width: 50%;
+}

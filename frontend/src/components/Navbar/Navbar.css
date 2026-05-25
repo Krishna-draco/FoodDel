@@ -1,0 +1,114 @@
+.outer-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 3%;
+   /* position: sticky;
+   top: 10px; */
+}
+
+
+.navbar{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 92%;
+}
+/* Navbar-left */
+.logo{
+   width: 140px;
+}
+/* Middle Navbar */
+.nav-mid{
+   width: 40%; 
+}
+.nav-mid ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.nav-mid ul li{
+   list-style: none;
+   font-size: large;
+   cursor: pointer;
+   padding: 3px;
+}
+.nav-mid ul li:hover{
+   background-color: rgb(198, 197, 197);
+   border-radius: 7%;
+}
+/* Navbar Right */
+.nav-right{
+   width: 7%;
+   display: flex;
+   justify-content: space-between;
+}
+.cart-container{
+   width: fit-content;
+   position: relative;
+}
+.searchIcon-img{
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+.basketIcon-img{
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+.dot{
+   background-color: tomato;
+   width: 7px;
+   height: 7px;
+   position: absolute;
+   top: -4px;
+   right:-3px;
+   border-radius: 100%;
+}
+
+.sign-up p{
+   border: 2px solid pink;
+   padding: 3px;
+   border-radius: 8%;
+   background-color: rgb(255, 222, 227);
+   color: rgb(89, 104, 104);
+   cursor: pointer;
+}
+
+.navbar .active-nav{
+   margin-bottom:3px;
+   border-bottom: 2px solid black;
+}
+
+.nav-profile{
+   position: relative;
+}
+
+.nav-dropdown{
+   position: absolute;
+   display: none;
+}
+
+.nav-profile:hover .nav-dropdown{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   right: 0px;
+}
+
+.nav-drop-element{
+   display: flex;
+   flex-direction: row;
+   background-color: rgb(179, 223, 223);
+   padding: 5px;
+   border-radius: 6px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}

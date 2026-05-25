@@ -1,0 +1,35 @@
+.list-container{
+   display: flex;
+   flex-direction: column;
+   margin: 2vw;
+   gap: 14px;
+   width:70vw ;
+   
+}
+
+.items-container{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   gap: 10px;
+}
+
+.arrangement{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.item{
+   width: 15%;
+}
+
+.list-img{
+   height: 14vh;
+   width: 9vw;
+}
+
+.delete{
+   cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.outer-header{
+   height: 34rem;
+   width: 100%;
+   background-image: url('../../../public/header_img.png');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.header{
+   color: white;
+   margin-left: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   gap:8px;
+   width: 40rem;
+   animation: fadeIn 1s;
+}
+
+.heading{
+   font-weight: 500px;
+   font-size: 45px;
+}
+
+.btn{
+   width: fit-content;
+   background-color: rgb(186, 184, 240);
+   border: 1px solid rgb(227, 189, 212);
+   color: rgb(41, 41, 41);
+   padding: 3px;
+   border-radius: 6px;
+   cursor: pointer;
+}

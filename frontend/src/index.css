@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Bitcount+Prop+Double+Ink:wght@100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "SUSE Mono", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.app{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+body{
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
